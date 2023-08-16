@@ -183,13 +183,13 @@ a:hover,
 
 /* NEW SECTION*/
 
-.new-container {
+.news {
   margin: 3em 0;
   background-color: var(--Very-Dark-Blue);
   padding: 1.5em;
 }
 
-.new-container > h2 {
+.news > h2 {
   color: var(--Soft-Orange);
   font-size: 2rem;
 }
@@ -283,7 +283,7 @@ a:hover,
     flex: 1;
   }
 
-  .new-container {
+  .news {
     max-width: 30%;
   }
 
@@ -292,7 +292,7 @@ a:hover,
     max-height: 300px;
   }
 
-  .new-container,
+  .news,
   main,
   .main-title {
     margin: 0;
@@ -308,7 +308,7 @@ a:hover,
     padding-top: 2em;
   }
 
-  .trending-section {
+  .trending-footer {
     display: flex;
     flex-direction: row;
   }
