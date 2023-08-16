@@ -285,6 +285,11 @@ a:hover,
 
   .news {
     max-width: 30%;
+    font-size: 1.05rem;
+  }
+
+  .news > h2 {
+    font-size: 2.4rem;
   }
 
   .main-image {
@@ -299,18 +304,19 @@ a:hover,
   }
 
   .main-title {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
   }
 
   .text-box {
     display: flex;
-    gap: 2em;
+    gap: 2.5em;
     padding-top: 2em;
   }
 
   .trending-footer {
     display: flex;
     flex-direction: row;
+    gap: 1.2em;
   }
 }
 
