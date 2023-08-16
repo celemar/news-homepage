@@ -11,101 +11,103 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | News homepage</title>
-
   </head>
   <body>
     <div class="container">
       <header>
-        <img src="./assets/images/logo.svg" alt="logo" srcset="" class="logo" />
-        <button class="menu-btn" aria-label="Open nav" aria-controls="mobileNav"><svg width="40" height="17" xmlns="http://www.w3.org/2000/svg" style="pointer-events: none;">
-        <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
-        <path d="M0 0h40v3H0z" />
-        </g>
-        </svg></button>
+        <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+        <button class="menu-btn" aria-label="Open nav">
+          <svg
+            width="40"
+            height="17"
+            xmlns="http://www.w3.org/2000/svg"
+            style="pointer-events: none"
+          >
+            <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+            <path d="M0 0h40v3H0z" />
+          </svg>
+        </button>
 
         <nav class="sidebar hidden">
-          <ul class="nav-links" id="nav-links">
+          <ul class="nav-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">New</a></li>
             <li><a href="#">Popular</a></li>
             <li><a href="#">Trending</a></li>
             <li><a href="#">Categories</a></li>
-            <div class="close-nav">
-              <button class="close-btn" aria-label="Close mobile nav" tabindex="-1">
-                <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
-                  <g fill="#00001A" fill-rule="evenodd">
-                    <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
-                    <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
-                  </g>
-                </svg>
-              </button>
-            </div>
           </ul>
-
+          <div class="close-nav">
+            <button
+              class="close-btn"
+              aria-label="Close mobile nav"
+              tabindex="-1"
+            >
+              <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
+                <path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z" />
+                <path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z" />
+              </svg>
+            </button>
+          </div>
         </nav>
-
       </header>
-      
+
       <div class="wrapper">
-      <main>
-        <div class="main-container">
-          <div class="main-image"></div>
-          <div class="text-box">
-          <h1 class="main-title">The Bright Future of Web 3.0?</h1>
-          <div>
-          <p class="main-text">
-            We dive into the next evolution of the web that claims to put the
-            power of the platforms back into the hands of the people. But is it
-            really fulfilling its promise?
-          </p>
-          <button class="read-button">Read more</button>
+        <main>
+          <div class="main-container">
+            <div class="main-image"></div>
+            <div class="text-box">
+              <h1 class="main-title">The Bright Future of Web 3.0?</h1>
+              <div>
+                <p class="main-text">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <button class="read-button">Read more</button>
+              </div>
+            </div>
           </div>
+        </main>
+
+        <section class="news">
+          <h2>New</h2>
+          <div class="new-card">
+            <h3 class="new-title">Hydrogen VS Electric Cars</h3>
+            <p class="new-text">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+            <hr size="1" />
           </div>
-        </div>
-      </main>
+          <div class="new-card">
+            <h3 class="new-title">The Downsides of AI Artistry</h3>
+            <p class="new-text">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <hr size="1" />
+          </div>
+          <div class="new-card">
+            <h3 class="new-title">Is VC Funding Drying Up?</h3>
+            <p class="new-text">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </section>
+      </div>
 
-      <section class="new-container">
-        <h2>New</h2>
-        <div class="new-card">
-          <h3 class="new-title">Hydrogen VS Electric Cars</h3>
-          <p class="new-text">
-            Will hydrogen-fueled cars ever catch up to EVs?
-          </p>
-          <hr size="1" />
-        </div>
-        <div class="new-card">
-          <h3 class="new-title">The Downsides of AI Artistry</h3>
-          <p class="new-text">
-            What are the possible adverse effects of on-demand AI image
-            generation?
-          </p>
-          <hr size="1" />
-        </div>
-        <div class="new-card">
-          <h3 class="new-title">Is VC Funding Drying Up?</h3>
-          <p class="new-text">
-            Private funding by VC firms is down 50% YOY. We take a look at what
-            that means.
-          </p>
-        </div>
-      </section>
-    </div>
-
-      <section class="trending-section">
+      <section class="trending-footer">
         <div class="trending-box">
           <div class="trending-img">
             <img
               src="./assets/images/image-retro-pcs.jpg"
               alt="retro computer"
-              srcset=""
             />
           </div>
           <div class="trending-content">
             <h2>01</h2>
             <h3>Reviving Retro PCs</h3>
-            <p>
-              What happens when old PCs are given modern upgrades?
-            </p>
+            <p>What happens when old PCs are given modern upgrades?</p>
           </div>
         </div>
         <div class="trending-box">
@@ -113,15 +115,12 @@
             <img
               src="./assets/images/image-top-laptops.jpg"
               alt="gaming laptop"
-              srcset=""
             />
           </div>
           <div class="trending-content">
             <h2>02</h2>
             <h3>Top 10 Laptops of 2022</h3>
-            <p>
-              Our best picks for various needs and budgets.
-            </p>
+            <p>Our best picks for various needs and budgets.</p>
           </div>
         </div>
         <div class="trending-box">
@@ -129,31 +128,26 @@
             <img
               src="./assets/images/image-gaming-growth.jpg"
               alt="gaming controller"
-              srcset=""
             />
           </div>
           <div class="trending-content">
             <h2>03</h2>
-            <h3>The Growth of Gaming </h3>
-            <p>
-              How the pandemic has sparked fresh opportunities.
-            </p>
+            <h3>The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
           </div>
         </div>
       </section>
-    </div>
 
     <script>
-const nav = document.querySelector(".sidebar");
+      const nav = document.querySelector(".sidebar");
 
-function toggleNav() {
-  event.preventDefault();
-  nav.classList.toggle("hidden");
-}
+      function toggleNav() {
+        event.preventDefault();
+        nav.classList.toggle("hidden");
+      }
 
-document.querySelector(".menu-btn").addEventListener("click", toggleNav);
-document.querySelector(".close-btn").addEventListener("click", toggleNav);
+      document.querySelector(".menu-btn").addEventListener("click", toggleNav);
+      document.querySelector(".close-btn").addEventListener("click", toggleNav);
     </script>
-
   </body>
 </html>
