@@ -17,10 +17,6 @@
   --Very-Dark-Blue: hsl(240, 100%, 5%);
 }
 
-html {
-  background-color: var(--Off-White);
-}
-
 body {
   display: flex;
   align-items: center;
@@ -28,6 +24,7 @@ body {
   flex-direction: column;
   font-family: "Inter", sans-serif;
   color: var(--Very-Dark-Blue);
+  background-color: var(--Off-White);
 }
 
 body {
